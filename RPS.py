@@ -31,9 +31,9 @@ while True :
         print(f"Your score: {playerScore}. Computer score: {computerScore}")
         break
     
-#Return
+#Return 
     if playerChoice not in choices:
-        print("Invalid choice. Try again.\n")
+        print("Invalid choice. Try again.")
         continue
 
 #Tie, win, or loss check.    
